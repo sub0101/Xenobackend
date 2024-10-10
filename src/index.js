@@ -10,7 +10,7 @@ const PORT = process.env.PORT
 export const app = express();
 
 
-app.use(cors({origin:"https://xeno-ike70n1nu-suraj-bishts-projects-78c888a9.vercel.app/" ,
+app.use(cors({origin:"https://xeno-o4ddc5mej-suraj-bishts-projects-78c888a9.vercel.app" ,
     optionsSuccessStatus: 200,
     preflightContinue: false,
     methods: "GET,POST,OPTIONS",
